@@ -14,7 +14,7 @@ cd countries
 for id in "${COUNTRIES[@]}"
 do
 echo "$id" >> "$id.txt"
-2done
+done
 
 cd movies
 for id in "${MOVIES[@]}"
